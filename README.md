@@ -3,7 +3,11 @@ Hacking
 
 This repository contains the source code that comes from the book: Hacking The Art of Exploitation.
 
+## Execution Command
+gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 <file_name>.c
+
 ## Notes
+
 The VM that this code runs on is an Ubuntu-based Live Linux Distro.  It contains all of the source
 code and the code all compiles under GCC version 3.3.6.  
 
