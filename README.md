@@ -7,6 +7,7 @@ This repository contains some resources for beginners to learn hacking. I was al
 
 Well, the cloud.
 Recommended: AWS
+OS: Ubuntu LTS Server 18.04 x/86 will do fine.
 
 Go launch an Ubuntu Instance on AWS. SSH into the instance and start hacking.
 Just clone this repository in your cloud machine and get started.
