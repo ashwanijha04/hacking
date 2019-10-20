@@ -11,22 +11,29 @@ Modern compilers are patched for buffer overflow vulnerabilities and we need to 
    > gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 -g -o auth_overflow auth_overflow.c
    > ./auth_overflow
 #### Debugging:
-   > gdb -q auth_overflow [ Start Debugging ]
+
+   [ Start Debugging ]
+   > gdb -q auth_overflow
    
-   > break *main [Put a breakpoint at the start of main]
+   [Put a breakpoint at the start of main]
+   > break *main
    
-   > set disassembly-flavor intel [Set the disassembly flavor to intel type - Do it, it helps.]
+   [Set the disassembly flavor to intel type - Do it, it helps.]
+   > set disassembly-flavor intel
    
-   > disass main [Disassemble main - This seems fun. Shows the assembler code ]
+   [Disassemble main - This seems fun. Shows the assembler code ]
+   > disass main 
    
-   > list [ Lists the program literally ]
+   [ Lists the program literally ] 
+   > list
    
-   > info registers [ Returns the information about the registers ]
+   [ Returns the information about the registers ]
+   > info registers
    
    > x/24wx $rsp [ ]
    
-   > x/2i $rip [ Returns the next two instructions of the instruction pointer ]
-
+   [ Returns the next two instructions of the instruction pointer ]
+   > x/2i $rip 
 
 ## Directories:
 #### booksrc:
