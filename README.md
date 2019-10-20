@@ -4,7 +4,7 @@ Hacking
 This repository contains the source code that comes from the book: Hacking The Art of Exploitation.
 
 ## Execution Command
-gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 <file_name>.c
+gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 -g -o <executable_name> <file_name>.c
 
 ## Notes
 
