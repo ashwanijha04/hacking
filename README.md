@@ -55,13 +55,19 @@ Modern compilers are patched for buffer overflow vulnerabilities and we need to 
    [ Lists the program literally ] 
    > list
    
+   > define hook-stop
+   
    [ Returns the information about the registers ]
    > info registers
    
    > x/24wx $rsp [ ]
    
+   
+   
    [ Returns the next two instructions of the instruction pointer ]
    > x/2i $rip 
+   
+   end
 
 ## Directories:
 
