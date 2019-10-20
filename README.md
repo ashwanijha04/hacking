@@ -7,10 +7,10 @@ This repository contains some resources for beginners to learn hacking. I was al
 Modern compilers are patched for buffer overflow vulnerabilities and we need to turn the protection off to practise this exploit.
 
    > gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 -g -o <executable_name> <file_name>.c
-Example:
+####Example:
    > gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 -g -o auth_overflow auth_overflow.c
    > ./auth_overflow
-Debugging:
+####Debugging:
    > gdb -q auth_overflow [ Start Debugging ]
    > break *main [Put a breakpoint at the start of main]
    > set disassembly-flavor intel [Set the disassembly flavor to intel type - Do it, it helps.]
