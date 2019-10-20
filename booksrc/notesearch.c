@@ -21,12 +21,12 @@ int main(int argc, char *argv[]) {
 		searchstring[0] = 0;             //   search string is empty
 
 	userid = getuid();
-	fd = open(FILENAME, O_RDONLY);   // open the file for read-only access
-	if(fd == -1)
-		fatal("in main() while opening file for reading");
+//	fd = open(FILENAME, O_RDONLY);   // open the file for read-only access
+//	if(fd == -1)
+////		fatal("in main() while opening file for reading");
 
-	while(printing)
-		printing = print_notes(fd, userid, searchstring);
+//	while(printing)
+//		printing = print_notes(fd, userid, searchstring);
 	printf("-------[ end of note data ]-------\n");
 	close(fd);
 }
