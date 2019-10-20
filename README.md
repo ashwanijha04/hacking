@@ -6,6 +6,8 @@ This repository contains some resources for beginners to learn hacking. I was al
 
 ## Download the book: Hacking - The Art of exploitation [here](https://github.com/ashwanijha04/hacking/blob/master/Hacking-%20The%20Art%20of%20Exploitation%20(2nd%20ed.%202008)%20-%20Erickson.pdf)
 
+Press the download button if it doesn't open.
+
 
 ## Where should I practice if I own shitty computers or office computer or "I don't wanna break my PC's memory" or anyhing else ?
 
