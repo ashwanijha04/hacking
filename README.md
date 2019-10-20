@@ -4,7 +4,8 @@ Hacking
 This repository contains some resources for beginners to learn hacking. I was always curious about Hacking but never got these tutorials readily available and explained nicely. I haven't built any of these resources myself but I have collected the relevant materials to use. I am just happy to give this back to the community. Trust me, it feels like a super-power when you get this skill. A shiny upgrade to your Iron Man suit. Go break!
 
 
-## Download the book: Hacking - The Art of exploitation [here](/)
+## Download the book: Hacking - The Art of exploitation [here](/Hacking- The Art of Exploitation (2nd ed. 2008) - Erickson.pdf
+)
 
 
 ## Where should I practice if I own shitty computers or office computer or "I don't wanna break my PC's memory" or anyhing else ?
