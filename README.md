@@ -12,7 +12,19 @@ Go launch an Ubuntu Instance on AWS. SSH into the instance and start hacking.
 Just clone this repository in your cloud machine and get started.
 
 
+   #### How to launch a virtual machine on AWS?
+   > https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/
+
+   #### How to launch a virtual machine on AWS?
+
+   > https://aws.amazon.com/free/
+
+   #### Getting started with Amazon EC2 instances:
+   > https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-get-started-overview
+
+
 ## Execution Command
+
 Modern compilers are patched for buffer overflow vulnerabilities and we need to turn the protection off to practise this exploit.
 
    > gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 -g -o <executable_name> <file_name>.c
@@ -45,6 +57,7 @@ Modern compilers are patched for buffer overflow vulnerabilities and we need to 
    > x/2i $rip 
 
 ## Directories:
+
 #### booksrc:
     Contains the examples from the Book: Hacking - The art of Exploitation.
     
