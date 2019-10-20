@@ -3,6 +3,15 @@ Hacking
 
 This repository contains some resources for beginners to learn hacking. I was always curious about Hacking but never got these tutorials readily available and explained nicely. I haven't built any of these resources myself but I have collected the relevant materials to use. I am just happy to give this back to the community. Trust me, it feels like a super-power when you get this skill. A shiny upgrade to your Iron Man suit. Go break!
 
+## Where should I practice if I own shitty computers or office computer or "I don't wanna break my PC's memory" or anyhing else ?
+
+Well, the cloud.
+Recommended: AWS
+
+Go launch an Ubuntu Instance on AWS. SSH into the instance and start hacking.
+Just clone this repository in your cloud machine and get started.
+
+
 ## Execution Command
 Modern compilers are patched for buffer overflow vulnerabilities and we need to turn the protection off to practise this exploit.
 
@@ -45,7 +54,3 @@ Modern compilers are patched for buffer overflow vulnerabilities and we need to 
     
 
 
-
-## Related Links
-* get the live linux disc: [downlooad here](https://www.dropbox.com/s/eho0p2q8oaz53h1/hacking-live-1.0.iso?dl=0)
-* http://www.amazon.com/Hacking-The-Art-Exploitation-Edition/dp/1593271441 - buy your own copy of the book
