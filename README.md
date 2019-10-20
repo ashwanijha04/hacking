@@ -7,6 +7,19 @@ This repository contains the source code that comes from the book: Hacking The A
 Modern compilers are patched for buffer overflow vulnerabilities and we need to turn the protection off to practise this exploit.
 gcc -fno-stack-protector -D_FORTIFY_SOURCE=0 -g -o <executable_name> <file_name>.c
 
+
+## Directories
+#### booksrc:
+    Contains the examples from the Book: Hacking - The art of Exploitation.
+    
+    
+#### Challenges:
+    These are the challenges from protstar. They contain source code which can be exploited.
+    https://exploit.education/protostar/stack-zero/
+    
+
+#### hacking
+
 ## Notes
 
 The VM that this code runs on is an Ubuntu-based Live Linux Distro.  It contains all of the source
