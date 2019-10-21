@@ -3,10 +3,17 @@ Hacking
 
 This repository contains some resources for beginners to learn hacking. I was always curious about Hacking but never got these tutorials readily available and explained nicely. I haven't built any of these resources myself but I have collected the relevant materials to use. I am just happy to give this back to the community. Trust me, it feels like a super-power when you get this skill. A shiny upgrade to your Iron Man suit. Go break!
 
+
+## Download the book: Hacking - The Art of exploitation [here](https://github.com/ashwanijha04/hacking/blob/master/Hacking-%20The%20Art%20of%20Exploitation%20(2nd%20ed.%202008)%20-%20Erickson.pdf)
+
+Press the download button if it doesn't open.
+
+
 ## Where should I practice if I own shitty computers or office computer or "I don't wanna break my PC's memory" or anyhing else ?
 
 Well, the cloud.
 Recommended: AWS
+OS: Ubuntu LTS Server 18.04 x/86 will do fine.
 
 Go launch an Ubuntu Instance on AWS. SSH into the instance and start hacking.
 Just clone this repository in your cloud machine and get started.
@@ -48,13 +55,19 @@ Modern compilers are patched for buffer overflow vulnerabilities and we need to 
    [ Lists the program literally ] 
    > list
    
+   > define hook-stop
+   
    [ Returns the information about the registers ]
    > info registers
    
    > x/24wx $rsp [ ]
    
+   
+   
    [ Returns the next two instructions of the instruction pointer ]
    > x/2i $rip 
+   
+   end
 
 ## Directories:
 
