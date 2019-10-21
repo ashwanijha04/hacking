@@ -62,7 +62,7 @@ Modern compilers are patched for buffer overflow vulnerabilities and we need to 
    
    > x/24wx $rsp [ ]
    
-   
+   > x/wx $rbp - <hex> [A local variable mostly]
    
    [ Returns the next two instructions of the instruction pointer ]
    > x/2i $rip 
